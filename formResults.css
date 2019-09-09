@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  background-image: url(wood-pattern.png);
+  background-color: #331a00;
+  background-attachment: fixed;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+}
+
+.resultBox {
+  position: relative;
+  width: 70%;
+  transform: translate(20%,0%);
+  box-shadow: 3px 5px 10px 5px #1a1a1a;
+}
+
+.submitId {
+  position: absolute;
+  left: 10px;
+  top: -3px;
+}
+
+.func_btn {
+  width: 100%;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+a {
+  width:100%;
+}

@@ -1,0 +1,45 @@
+.keyboard { position: fixed;
+            display: none;
+            width: 300px;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgb(192, 142, 89, 0.4);
+            background-image: url('wood-pattern.png');
+            border-style: solid;
+            border-color: #231a10;
+            border-radius: 15px;}
+
+span { font-size: 30px;
+       background-color: rgb(204, 136, 0, 0.8);
+       background-image: url(wood.jpg);
+       border-radius: 5px;
+       border-style: ridge;
+       border-color: #231a10;
+       border-width: 1px;
+       padding-left: 2px;
+       padding-right: 2px;}
+
+span:hover {
+  cursor: pointer;
+}
+
+#showKey:hover {
+  cursor: pointer;
+}
+
+#showKey { position: fixed;
+           font-size: 30px;
+           bottom: 10px;
+           left: 10px;}
+
+.formContainer {background-color: #f8f1ec;}
+
+.submitBtn { position: relative;
+             background-image: url(wood.jpg);
+             transition: all 0.2s ease}
+
+.w3-main {
+           background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);}
+
+/* .w3-animate-fading { animation-duration: 4s;
+                     animation-timing-function: ease;} */

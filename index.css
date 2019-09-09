@@ -1,0 +1,108 @@
+body { height: 100vh;
+       width: 100%;
+       display: flex;
+       position: relative;
+       background-color:#331a00;
+       transition: background-color 0.5s ease;
+       background-image: url('wood-pattern.png');}
+
+.bigContainer { position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 600px;}
+
+.signin { background-color: white;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: all 0.5s ease-in-out;
+          opacity: 1;
+          pointer-events: all;}
+
+.custom_contain { position: absolute;
+                  top: 35%;
+                  left: 50%;
+                  transform: translate(-50%, 0%);
+                  transition: all 0.5s ease-in-out;
+                  opacity: 1;
+                  pointer-events: all;}
+
+.custom { background-color: white;
+          position: relative;}
+
+.title { color: white;
+         font-weight: bolder;
+         font-size: 50px;
+         position: absolute;
+         top: 10%;
+         left: 50%;
+         transform: translate(-50%, -50%);}
+
+#btnTxt { opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.8s, visibility 0.8s;
+          transition-delay: 0.3s;}
+
+.toCustomBtn { position: absolute;
+               width: 45px;
+               height: 35px;
+               top: 50%;
+               left: 75%;
+               -webkit-transition: width 0.8s;
+               transition: width 0.8s;
+               opacity: 1;
+               pointer-events: all;}
+
+.toSearchBtn { position: absolute;
+               width: 45px;
+               height: 35px;
+               top: 50%;
+               left: 20%;
+               transition: all 1s;
+               opacity: 1;
+               pointer-events: all;}
+
+.toCustomBtn:hover { width: 100px;}
+
+
+
+.signin.innactive { opacity: 0;
+                    pointer-events: none;
+                    transform: translate(-70%, -50%);}
+
+.custom_contain.innactive { opacity: 0;
+                            pointer-events: none;
+                            transform: translate(-30%, 0%);}
+
+button.innactive { opacity: 0;
+                   pointer-events: none;}
+
+.subTitle { color: white;
+            font-weight: 300;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 1;
+            transition: opacity 0.5s;}
+
+.subTitle.innactive { opacity: 0;}
+
+.deleteTab { position: absolute;
+             top: 3px;
+             right: 3px}
+
+.moveTab { position: absolute;
+             top: 3px;
+             left: 3px}
+
+#psw { border: none;
+       border-bottom: 1px solid grey;
+       height: 35px;}
+
+input:focus{
+  outline: none;
+  border:1px solid grey;
+}
